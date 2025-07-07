@@ -56,7 +56,7 @@ namespace MonsterkampfSimulator
         internal virtual int TakeDamage( int incomingDamage)
         {
             int realDamage = incomingDamage - DP;
-            Console.WriteLine($"In TakeDamage Methode - incoming Damage: {incomingDamage} real Damage: {realDamage}");
+            //Console.WriteLine($"In TakeDamage Methode - incoming Damage: {incomingDamage} real Damage: {realDamage}");
             if (realDamage < 0)
             {
                 realDamage = 0;

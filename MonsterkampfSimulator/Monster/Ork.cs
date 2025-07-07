@@ -36,7 +36,7 @@ namespace MonsterkampfSimulator
                 incomingDamage = Damage + AP;
                 int realDamage = target.TakeDamage(incomingDamage);
                 Console.WriteLine($"{this.RasseTyp} greift {target.RasseTyp} an und verursacht {realDamage} Schaden! (Normaler Angriff!)");
-                Console.WriteLine($"In Attack - ork: realDamage: {realDamage}");
+                //Console.WriteLine($"In Attack - ork: realDamage: {realDamage}");
             }
             else
             {
